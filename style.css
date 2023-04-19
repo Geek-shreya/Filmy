@@ -26,3 +26,13 @@ nav{
     justify-content: space-between;
     padding: 10px 0px;
 }
+
+nav button{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border-radius: 6px;
+    padding: 8px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
