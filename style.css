@@ -5,10 +5,15 @@
     box-sizing: border-box;
 }
 
+
 body{
     background-color: black;
     color: white;
 }
+
+
+
+
 
 .header{
     width: 100%;
@@ -27,7 +32,7 @@ nav{
     padding: 10px 0px;
 }
 
-nav button{
+.btn{
     background-color: red;
     color: white;
     font-size: 20px;
@@ -35,4 +40,61 @@ nav button{
     padding: 8px 20px;
     margin-left: 10px;
     cursor: pointer;
+}
+.header-content{
+    color: white;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    font-size: xx-large;
+    padding: 10% ;
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.header-content {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 3em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-image: linear-gradient(rgb(255, 68, 0), rgb(255, 34, 0));
+  background-size: 100% 10px;
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+   transition: background-size .7s, background-position .5s ease-in-out;
+}
+
+.header-content:hover {
+  background-size: 100% 100%;
+  background-position: 0% 100%;
+  transition: background-position .7s, background-size .5s ease-in-out;
+} */
+.header-content {
+  --s: 0.1em;   /* the thickness of the line */
+  --c: #ff3e2c; /* the color */
+  
+  color: #0000;
+  padding-bottom: var(--s);
+  background: 
+    linear-gradient(90deg,var(--c) 50%,#000 0) calc(100% - var(--_p,0%))/200% 100%,
+    linear-gradient(var(--c) 0 0) 0% 100%/var(--_p,0%) var(--s) no-repeat;
+  -webkit-background-clip: text,padding-box;
+          background-clip: text,padding-box;
+  transition: 0.5s;
+}
+.header-content:hover {--_p: 100%}
+
+
+/* body {
+  height: 100vh;
+  margin: 0;
+  display: grid;
+  place-content: center;
+} */
+h1 {
+  font-family: system-ui, sans-serif;
+  font-size: 5rem;
+  cursor: pointer;
 }
