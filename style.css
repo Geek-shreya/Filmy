@@ -32,5 +32,7 @@ nav button{
     color: white;
     font-size: 20px;
     border-radius: 6px;
-    padding: 5px;
+    padding: 8px 20px;
+    margin-left: 10px;
+    cursor: pointer;
 }
