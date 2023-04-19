@@ -35,4 +35,5 @@ nav button{
     padding: 8px 20px;
     margin-left: 10px;
     cursor: pointer;
+    box-shadow: 2px red;
 }
