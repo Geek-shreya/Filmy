@@ -4,7 +4,7 @@
 
 .logo{
     height: 10vh;
-    width: 15%;
+    width: 25%;
     margin: 2% 0% 3% 2%;
 }
 
@@ -15,9 +15,6 @@
     background-color: black;
 }
 
-/* .container{
-    background-color: black;
-}
 
 #home{
     color: white;
@@ -38,6 +35,8 @@
 .container-fluid{
     background-color: black;
 }
-#navigate{
-    background-color: black;
+
+/* .harry{
+    font-size: xx-large;
+    background: linear-gradient(to right);
 } */
