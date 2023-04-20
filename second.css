@@ -1,0 +1,43 @@
+#body{
+    background-color: black;
+}
+
+.logo{
+    height: 10vh;
+    width: 15%;
+    margin: 2% 0% 3% 2%;
+}
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+/* .container{
+    background-color: black;
+}
+
+#home{
+    color: white;
+}
+#link{
+    color: white;
+}
+#dropdown{
+    color: white;
+}
+#disabled{
+    color: white;
+}
+
+#navbar{
+    background-color: black;
+}
+.container-fluid{
+    background-color: black;
+}
+#navigate{
+    background-color: black;
+} */
