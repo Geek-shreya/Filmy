@@ -80,12 +80,18 @@ margin: 22% 0% 10% 4%;
     font-size: 18px;
     padding: 10px;
     border: none;
-    background: #000;
-    color: whitesmoke;
+    background: #120f0f;
+color: aqua;
     cursor: pointer;
     border-radius: 5%;
   }
-  
+span{
+    color: #000;
+background-color: antiquewhite;
+}
+  #hello{
+    color: #e74c3c;
+  }
   #myBtn:hover {
     background: #ddd;
     color: rgb(0, 0, 0);
