@@ -145,6 +145,7 @@ button:active {
 
 
 
+
 .header-content {
   font-family: system-ui, sans-serif;
   font-size: 15rem;
@@ -153,6 +154,15 @@ button:active {
 }
 
 .header-content:hover {
+
+/* body {
+  height: 100vh;
+  margin: 0;
+  display: grid;
+  place-content: center;
+} */
+/* h1 {
+
   font-family: system-ui, sans-serif;
   font-size: 5rem;
   cursor: pointer;
