@@ -17,31 +17,105 @@
 
  
         <nav> <img src="Logo.png" class="logo" alt="logo"> 
-        <div>
-            <!-- <button>Log In</button>
-            <button>Sign Up</button> -->
-            <button type="button" class="btn btn-danger">Log In</button>
-            <button type="button" class="btn btn-danger">Sign Up</button>
+        
+            
+           
+           <div class="mx-2">
+
+            <button type="button"  id="btn1" data-bs-toggle="modal" data-bs-target="#loginModal">
+                Login
+            </button>
+            <button type="button" style="--color:red;--border:2px;--slant:.5em" id="btn2" data-bs-toggle="modal"
+                data-bs-target="#signupModal">
+                Signup
+            </button>
         </div>
-        </nav>
+
+    </nav>
+
+
+        
+        
         <div class="header-content">
             <h1 style="font-size: 60px;"> FOR A MOVIE BUG LIKE YOU..</h1>
             <h3 style="font-size: 40px;"> a collection of golden times OGs..</h3>
             </div>
             <br> <br>
 
-            <!-- <span class="span">
-            <form class="email-signup" >
-                <input type="email" placeholder="Email address">
-                <button  type="submit">Get Started</button>
-              </form>
-            </span> -->
+           
             <div class="wrapper">
                 <div class="link_wrapper">
-              <a href="#" class="btns" style="color: white; margin-top: 320px;">GET STARTED</a>
+              <a href="second.html" class="btns" style="color: white; margin-top: 320px; font-size: larger;">GET STARTED</a>
                 </div>
             </div>
         
+            <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="signupModalLabel"><b>Create Account</b></h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label"> Your Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                    <div id="emailHelp" class="form-text">We guarantee your privacy.</div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Confirm-Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                </div>
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">I'm not a robot</label>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- login -->
+            <!-- Modal -->
+            <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="loginModalLabel"><b>Log in</b></h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                </div>
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">I'm not a robot</label>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+          
+                            </form>
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
 
         
 

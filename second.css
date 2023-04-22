@@ -4,7 +4,7 @@
 
 .logo{
     height: 10vh;
-    width: 15%;
+    width: 25vh;
     margin: 2% 0% 3% 2%;
 }
 
@@ -195,7 +195,7 @@
   }
   
   .menu li a {
-    font-size: 20px;
+    font-size: 15px;
     color: #fff;
     text-decoration: none;
   }
