@@ -4,12 +4,11 @@
 
 .logo{
     height: 10vh;
-
-    width: 25vh;
-
-    width: 25%;
-
-    margin: 2% 0% 3% 2%;
+    width: 35vh;
+    /* width: 25%; */
+    /* margin: 0% 3% 3% 0%; */
+    float: left;
+    padding-right: 6%;
 }
 
 .heading{
@@ -21,7 +20,8 @@
 
 .menu {   
     margin: 50px auto;
-    width: 800px;   
+    width: 800px;  
+    height: 50px; 
     width: -moz-fit-content;
     width: -webkit-fit-content;
     width: fit-content; 
@@ -70,7 +70,7 @@ margin: 22% 0% 10% 4%;
     font-size: 50%;
     /* background: linear-gradient(rgb(34, 24, 109), rgb(160, 24, 46),rgb(206, 157, 66),rgb(39, 183, 56)); */
     background-color: white;
-    -webkit-text-fill-color: transparent;
+    /* -webkit-text-fill-color: ; */
     -webkit-background-clip: text;
 }
 
@@ -84,23 +84,15 @@ margin: 22% 0% 10% 4%;
     font-size: 18px;
     padding: 10px;
     border: none;
-    background: #120f0f;
-color: aqua;
+    background: whitesmoke;
     cursor: pointer;
     border-radius: 5%;
+    color: #831212;
   }
-span{
-    color: #000;
-background-color: antiquewhite;
-}
 
 #navigate{
     background-color: black;
-} */
-/* .navbar{
-    background: transparent;
-} */
-
+} 
 
 .menu {   
     margin: 50px auto;
@@ -256,22 +248,23 @@ background-color: antiquewhite;
     text-decoration: none;
   }
 
-  
-   /* .menu li a:hover {
-    color: #c07c4c;
-  } 
-  
-  */
-  
-
-
-
      
   #hello{
     color: #e74c3c;
   }
   #myBtn:hover {
-    background: #ddd;
+    background: #915a5a;
     color: rgb(0, 0, 0);
   }
 
+.popular{
+    color: #ddd;
+}
+
+.awards_meaning{
+  color: #ddd;
+}
+
+.vid{
+  margin-top: 1%;
+}
