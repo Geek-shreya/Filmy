@@ -268,3 +268,19 @@ margin: 22% 0% 10% 4%;
 .vid{
   margin-top: 1%;
 }
+
+.title1{
+  color: #820f0f;
+  display: flex;
+  flex-direction: row;
+}
+
+.flex1{
+  margin: 0% 7% 7% 11%;
+  font-size: 125%;
+}
+
+.flex2{
+  margin: 0% 8% 7% 7%;
+  font-size: 125%;
+}
